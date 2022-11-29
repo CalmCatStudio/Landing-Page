@@ -35,7 +35,7 @@ li {
     list-style: none;
 }
 button {
-    border-radius:5px;
+    border-radius:10px;
     background-color: #3882F6;
     color: white;   
     width: 80px;
@@ -111,4 +111,31 @@ button {
     margin-right: 30vh;
     font-weight: bolder;
     color: #1F2937;
+}
+
+.call-to-action {
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 10vh;
+    display: flex;
+    flex-flow: row wrap;
+    gap: 16px;
+}
+
+.call-to-action p {
+    margin: auto;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.call-to-action button {
+    border-color: white;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
 }
